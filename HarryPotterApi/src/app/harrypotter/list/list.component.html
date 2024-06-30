@@ -1,0 +1,62 @@
+<mat-card class="mat-card count-card">
+  <mat-card-header>
+    <mat-card-title> Listado de Favortios </mat-card-title>
+  </mat-card-header>
+  <mat-card-content class="content">
+    <table mat-table [dataSource]="dataSource" matSort>
+      <ng-container matColumnDef="select">
+        <th mat-header-cell *matHeaderCellDef></th>
+        <td mat-cell *matCellDef="let row"></td>
+      </ng-container>
+      <ng-container matColumnDef="image">
+        <th mat-header-cell *matHeaderCellDef>Image Url</th>
+        <td mat-cell *matCellDef="let element">
+          <img [src]="element.attributes.image" />
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef>Nombre del Personaje</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.attributes.name }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="house">
+        <th mat-header-cell *matHeaderCellDef>Casa del Personaje</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.attributes.house }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="actions">
+        <th mat-header-cell *matHeaderCellDef>Actions</th>
+        <td mat-cell *matCellDef="let element">
+          <a [routerLink]="['../view', element.id]"
+            ><mat-icon
+              aria-hidden="false"
+              aria-label="Example home icon"
+              fontIcon="pageview"
+            ></mat-icon>
+          </a>
+          <a [routerLink]="['../edit', element.id]"
+            ><mat-icon
+              aria-hidden="false"
+              aria-label="Example home icon"
+              fontIcon="mode_edit"
+            ></mat-icon
+          ></a>
+          <mat-icon
+            aria-hidden="false"
+            aria-label="Example home icon"
+            fontIcon="delete"
+            (click)="confirmDelete(element.id)"
+          ></mat-icon>
+        </td>
+      </ng-container>
+      <tr mat-header-row *matHeaderRowDef="displayColums"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayColums"></tr>
+    </table>
+    <mat-paginator
+      [pageSizeOptions]="[5, 10, 15]"
+      showFirstLastButtons="true"
+    ></mat-paginator>
+  </mat-card-content>
+</mat-card>

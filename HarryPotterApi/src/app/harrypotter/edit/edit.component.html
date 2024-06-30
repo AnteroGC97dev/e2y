@@ -1,0 +1,77 @@
+<mat-card class="-card">
+  <mat-card-header>
+    <mat-card-title> Edita tu Personaje</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <form [formGroup]="editcharacterForm" (ngSubmit)="onSubmit()">
+      <div class="form-group" style="display: flex; flex-direction: column">
+        <mat-form-field>
+          <input
+            matInput
+            placeholder="Introduce el nombre del Personaje"
+            formControlName="name"
+          />
+          <mat-error
+            *ngIf="
+              editcharacterForm.controls['name']?.touched &&
+              editcharacterForm.controls['name']?.hasError('required')
+            "
+            >El campo Nombre es requerido</mat-error
+          >
+          <mat-error
+            *ngIf="
+              editcharacterForm.controls['name']?.touched &&
+              editcharacterForm.controls['name']?.hasError('minlength')
+            "
+            >El Nombre es muy pequeño</mat-error
+          >
+          <mat-error
+            *ngIf="
+              editcharacterForm.controls['name']?.touched &&
+              editcharacterForm.controls['name']?.hasError('maxlength')
+            "
+            >El Nombre es muy largo</mat-error
+          >
+        </mat-form-field>
+        <mat-form-field>
+          <input
+            matInput
+            placeholder="Introduce el nombre de la casa"
+            formControlName="house"
+          />
+        </mat-form-field>
+        <mat-form-field>
+          <input
+            matInput
+            placeholder="Introduce la nueva imagen"
+            formControlName="image"
+          />
+          <mat-error
+            *ngIf="
+              editcharacterForm.controls['image']?.touched &&
+              editcharacterForm.controls['image']?.invalid
+            "
+            >El campo Imagen no es correcto</mat-error
+          >
+        </mat-form-field>
+        <img
+          *ngIf="!editcharacterForm.controls['image']?.invalid"
+          mat-card-image
+          [src]="editcharacterForm.get('image')?.value || ''"
+        />
+      </div>
+      <div class="form-group">
+        <button
+          mat-raised-button
+          color="primary"
+          [disabled]="!editcharacterForm.valid"
+        >
+          Finalizar edición
+        </button>
+      </div>
+    </form>
+  </mat-card-content>
+  <a routerLink="/" style="text-decoration: none"
+    >Volver a la página principal</a
+  >
+</mat-card>

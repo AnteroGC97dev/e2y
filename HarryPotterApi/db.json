@@ -1,0 +1,158 @@
+{
+  "personajes": [
+    {
+      "id": "015c91ba-bc7f-4622-a571-0b5e2488fefe",
+      "type": "character",
+      "attributes": {
+        "slug": "2-headed-baby",
+        "alias_names": [],
+        "animagus": null,
+        "blood_status": null,
+        "boggart": null,
+        "born": "Before 1927",
+        "died": null,
+        "eye_color": null,
+        "family_members": [],
+        "gender": "Male (most likely)",
+        "hair_color": null,
+        "height": null,
+        "house": null,
+        "image": "https://static.wikia.nocookie.net/harrypotter/images/a/a6/2HeadedBaby.jpg",
+        "jobs": [
+          "Circus performers"
+        ],
+        "marital_status": null,
+        "name": "2-Headed Baby",
+        "nationality": null,
+        "patronus": null,
+        "romances": [],
+        "skin_color": null,
+        "species": "Human",
+        "titles": [],
+        "wands": [],
+        "weight": null,
+        "wiki": "https://harrypotter.fandom.com/wiki/2-Headed_Baby"
+      },
+      "links": {
+        "self": "/v1/characters/015c91ba-bc7f-4622-a571-0b5e2488fefe"
+      },
+      "isFavorite": false
+    },
+    {
+      "id": "c68ebdcf-c63d-4c7b-972c-b8af05f5ee48",
+      "type": "character",
+      "attributes": {
+        "slug": "abigail-grey",
+        "alias_names": [],
+        "animagus": null,
+        "blood_status": "Half-blood",
+        "boggart": null,
+        "born": "Between 1 September 1992 and 31 August 1997",
+        "died": null,
+        "eye_color": "Blue",
+        "family_members": [
+          "Gerard Grey (father)",
+          "Diana Grey (mother)",
+          "Grey family"
+        ],
+        "gender": "Female",
+        "hair_color": "Red",
+        "height": null,
+        "house": "Gryffindor",
+        "image": "https://static.wikia.nocookie.net/harrypotter/images/a/af/Abigail_Grey_MA.jpeg",
+        "jobs": [],
+        "marital_status": null,
+        "name": "Abigail Grey",
+        "nationality": "British or Irish",
+        "patronus": "Wolf",
+        "romances": [],
+        "skin_color": "White",
+        "species": "Human (werewolf)",
+        "titles": [],
+        "wands": [
+          "11¼', Cypress, unicorn hair"
+        ],
+        "weight": null,
+        "wiki": "https://harrypotter.fandom.com/wiki/Abigail_Grey"
+      },
+      "links": {
+        "self": "/v1/characters/c68ebdcf-c63d-4c7b-972c-b8af05f5ee48"
+      },
+      "isFavorite": false
+    },
+    {
+      "id": "c83db691-225f-45fd-81e6-087d70d9c665",
+      "type": "character",
+      "attributes": {
+        "slug": "andrew-snowy-owl-gryffindor",
+        "alias_names": [],
+        "animagus": null,
+        "blood_status": null,
+        "boggart": null,
+        "born": "c. 1970s - 1980s",
+        "died": null,
+        "eye_color": null,
+        "family_members": [
+          "Andrew Snowy Owl (possibly)"
+        ],
+        "gender": "Male",
+        "hair_color": null,
+        "height": null,
+        "house": "Gryffindor",
+        "image": null,
+        "jobs": [],
+        "marital_status": null,
+        "name": "Andrew Snowy Owl",
+        "nationality": "British or Irish",
+        "patronus": null,
+        "romances": [],
+        "skin_color": null,
+        "species": "Human",
+        "titles": [],
+        "wands": [],
+        "weight": null,
+        "wiki": "https://harrypotter.fandom.com/wiki/Andrew_Snowy_Owl_(Gryffindor)"
+      },
+      "links": {
+        "self": "/v1/characters/c83db691-225f-45fd-81e6-087d70d9c665"
+      },
+      "isFavorite": false
+    },
+    {
+      "id": "d951cacf-85fd-4861-a2f8-edd6ce824eaf",
+      "type": "character",
+      "attributes": {
+        "slug": "andrew-saxby",
+        "alias_names": [],
+        "animagus": null,
+        "blood_status": null,
+        "boggart": null,
+        "born": "31 August 1982 or earlier",
+        "died": null,
+        "eye_color": "Green",
+        "family_members": [],
+        "gender": "Male",
+        "hair_color": "Blond",
+        "height": null,
+        "house": "Gryffindor",
+        "image": "https://static.wikia.nocookie.net/harrypotter/images/7/76/Andrew_Saxby.png",
+        "jobs": [],
+        "marital_status": null,
+        "name": "Andrew Saxby",
+        "nationality": "British or Irish",
+        "patronus": null,
+        "romances": [],
+        "skin_color": "Light",
+        "species": "Human",
+        "titles": [],
+        "wands": [],
+        "weight": null,
+        "wiki": "https://harrypotter.fandom.com/wiki/Andrew_Saxby"
+      },
+      "links": {
+        "self": "/v1/characters/d951cacf-85fd-4861-a2f8-edd6ce824eaf"
+      },
+      "isFavorite": false
+    }
+  ]
+}

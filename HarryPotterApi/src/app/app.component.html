@@ -1,0 +1,22 @@
+<mat-toolbar class="header-toolbar">
+  <button
+    mat-icon-button
+    (click)="toggleSidebar()"
+    class="example-icon"
+    aria-label="Example icon-button with menu icon"
+  >
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span class="app-title">Opciones</span>
+  <span class="header-spacer"></span>
+</mat-toolbar>
+<mat-drawer-container class="content-container">
+  <mat-drawer node="side" [opened]="sideBarOpen" class="sidebar">
+    <app-sidebar></app-sidebar>
+  </mat-drawer>
+
+  <mat-drawer-content class="main-content">
+    <h1>HarryPotter e2y</h1>
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>

@@ -1,0 +1,26 @@
+.header-spacer {
+  flex: 1 1 auto;
+}
+
+.header-toolbar {
+  background-color: black;
+  color: aqua;
+  .app-title {
+    padding-left: 20px;
+  }
+}
+
+.sidebar {
+  background-color: aqua;
+  height: 100%;
+  width: 230px;
+}
+.content-container {
+  height: 93%;
+  border: 1px solid #ddd;
+  min-height: 100;
+}
+
+.main-content {
+  text-align: center;
+}

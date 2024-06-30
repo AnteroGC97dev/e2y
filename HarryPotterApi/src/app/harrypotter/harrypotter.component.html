@@ -1,0 +1,81 @@
+<form [formGroup]="searchForm">
+  <mat-toolbar class="search-block" [class.active]="true">
+    <mat-toolbar-row style="padding: 0 5px">
+      <button class="search-icon" mat-icon-button disabled>
+        <mat-icon>search</mat-icon>
+      </button>
+      <input
+        formControlName="searchBar"
+        class="search-control"
+        type="text"
+        placeholder="Search"
+      />
+      <mat-spinner *ngIf="loading" class="spinner"></mat-spinner>
+      <button mat-icon-button class="example-icon" (click)="searchClose()">
+        <mat-icon>close</mat-icon>
+      </button>
+    </mat-toolbar-row>
+  </mat-toolbar>
+  <div class="example-button-container">
+    <button
+      mat-raised-button
+      (click)="disableHouseControl()"
+      [disabled]="enableButton"
+    >
+      Desabilitar filtros
+    </button>
+    <button
+      mat-raised-button
+      (click)="enableHouseControl()"
+      [disabled]="!enableButton"
+    >
+      Habilitar filtros
+    </button>
+  </div>
+  <mat-chip-listbox aria-label="House selection" formControlName="filterHouse">
+    <mat-chip-option *ngFor="let house of houses" (click)="setFilter(house)">{{
+      house
+    }}</mat-chip-option>
+  </mat-chip-listbox>
+</form>
+
+<div class="Grid">
+  <mat-card *ngFor="let item of characters" class="mat-card count-card">
+    <a [routerLink]="['view', item.id]" style="text-decoration: none">
+      <mat-card-header>
+        <mat-card-title>{{ item.attributes.name | titlecase }}</mat-card-title>
+      </mat-card-header>
+      <img
+        mat-card-image
+        [src]="item.attributes.image"
+        [alt]="item.attributes.name"
+      />
+      <mat-card-content>
+        {{ item.attributes.house }}
+      </mat-card-content>
+    </a>
+
+    <mat-icon
+      *ngIf="!item.isFavorite"
+      aria-hidden="false"
+      aria-label="Example home icon"
+      fontIcon="favorite"
+      (click)="saveCharacter(item)"
+    ></mat-icon>
+    <mat-icon
+      *ngIf="item.isFavorite"
+      aria-hidden="false"
+      aria-label="Example home icon"
+      fontIcon="delete"
+      (click)="deleteCharacter(item.id)"
+    ></mat-icon>
+  </mat-card>
+</div>
+<button
+  mat-raised-button
+  color="primary"
+  *ngIf="characters.length % 10 === 0 && characters.length"
+  (click)="searchMore()"
+>
+  Mostrar más
+</button>

@@ -1,0 +1,22 @@
+.-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Alinea los elementos al centro horizontalmente */
+}
+
+.mat-card-content {
+  width: 100%; /* Asegura que el contenido ocupe todo el ancho disponible */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Espacio entre grupos de campos */
+}
+
+.mat-form-field {
+  width: 100%; /* Ancho completo del campo de formulario */
+  margin-bottom: 10px; /* Espacio inferior entre campos */
+}
+
+button {
+  margin-top: 10px; /* Espacio superior para el botón */
+}

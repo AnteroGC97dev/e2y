@@ -1,0 +1,66 @@
+.list-credit-cards {
+  margin: 20px;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.mat-card {
+  margin: 20px;
+}
+
+.count-card {
+  width: 12%;
+  margin: 5px;
+  padding: 20px;
+}
+.Grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.spinner {
+  width: 30px !important; /* Modifica el ancho según sea necesario */
+  height: 30px !important; /* Modifica la altura según sea necesario */
+}
+
+.Grid .mat-card {
+  width: calc(
+    12% - 7px
+  ); /* Ajusta el ancho de las tarjetas para que haya 5 tarjetas por fila */
+  margin-bottom: 20px; /* Espacio entre las filas */
+}
+
+header {
+  position: fixed;
+  top: 0;
+  z-index: 11;
+  transition: all 250ms ease-in-out;
+}
+.main-header {
+  &.hidden {
+    opacity: 0;
+  }
+}
+.search-block {
+  width: 0%;
+  right: 0;
+
+  background: #fff;
+  &.active {
+    width: 100%;
+  }
+  .search-control {
+    flex: 1;
+    font-size: 1rem;
+    border: 0;
+    outline: none;
+    padding-left: 10px;
+  }
+  .example-card {
+    max-width: 400px;
+  }
+  .example-form-field {
+    width: 100%;
+  }
+}

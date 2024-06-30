@@ -1,0 +1,31 @@
+<mat-card *ngIf="characterDetails$ | async as character" class="character-card">
+  <mat-card-header>
+    <mat-card-title>{{ character.attributes.name }}</mat-card-title>
+  </mat-card-header>
+
+  <mat-card-content>
+    <img
+      mat-card-image
+      [src]="character.attributes.image"
+      alt="{{ character.attributes.name }}"
+    />
+    <h3>Datos</h3>
+    <div class="stats">
+      <p>
+        Sexo: <span>{{ character.attributes.gender }}</span>
+      </p>
+      <p>
+        Nacido: <span>{{ character.attributes.born }}</span>
+      </p>
+      <p>
+        Tipo de especie: <span>{{ character.attributes.species }}</span>
+      </p>
+      <p>
+        casa: <span>{{ character.attributes.house }}</span>
+      </p>
+    </div>
+  </mat-card-content>
+  <a routerLink="/" style="text-decoration: none"
+    >Volver a la página principal</a
+  >
+</mat-card>
