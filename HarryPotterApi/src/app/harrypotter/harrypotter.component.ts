@@ -14,16 +14,7 @@ import { MatSort } from '@angular/material/sort';
 import { HarryPotterService } from '../services/harrypotter.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { MatDialog } from '@angular/material/dialog';
-// import { DeleteComponent } from './delete/delete.component';
-import {
-  Observable,
-  Subject,
-  debounceTime,
-  filter,
-  switchMap,
-  takeUntil,
-  tap,
-} from 'rxjs';
+import { Subject, debounceTime, switchMap, takeUntil, tap } from 'rxjs';
 import { FormBuilder, FormControl, FormGroup } from '@angular/forms';
 import { Character } from '../models/character.model';
 import { HogwartsHouse } from '../models/houses-utils';
@@ -84,7 +75,13 @@ export class HarrypotterComponent implements OnInit, OnDestroy {
         })
       )
       .pipe(takeUntil(this.unsubscribe$))
-      .subscribe();
+      .subscribe({
+        next: (data: Character[]) => {
+          this.favorites = data;
+          this.characters = this.CheckFavorite(this.characters);
+        },
+        error: (e) => alert('error al cargar la lista'),
+      });
   }
 
   CheckFavorite(characters: Character[]) {

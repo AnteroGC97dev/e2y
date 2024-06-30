@@ -1,28 +1,26 @@
 {
   "personajes": [
     {
-      "id": "015c91ba-bc7f-4622-a571-0b5e2488fefe",
+      "id": "4e1a392e-012d-4bd3-8040-2821150d4bac",
       "type": "character",
       "attributes": {
-        "slug": "2-headed-baby",
+        "slug": "unidentified-8-year-old-muggle-girl",
         "alias_names": [],
         "animagus": null,
-        "blood_status": null,
+        "blood_status": "Muggle",
         "boggart": null,
-        "born": "Before 1927",
+        "born": "1983",
         "died": null,
         "eye_color": null,
         "family_members": [],
-        "gender": "Male (most likely)",
+        "gender": "Female",
         "hair_color": null,
         "height": null,
         "house": null,
-        "image": "https://static.wikia.nocookie.net/harrypotter/images/a/a6/2HeadedBaby.jpg",
-        "jobs": [
-          "Circus performers"
-        ],
+        "image": null,
+        "jobs": [],
         "marital_status": null,
-        "name": "2-Headed Baby",
+        "name": "8-year-old Muggle girl",
         "nationality": null,
         "patronus": null,
         "romances": [],
@@ -31,10 +29,220 @@
         "titles": [],
         "wands": [],
         "weight": null,
-        "wiki": "https://harrypotter.fandom.com/wiki/2-Headed_Baby"
+        "wiki": "https://harrypotter.fandom.com/wiki/Unidentified_8-year-old_Muggle_girl"
       },
       "links": {
-        "self": "/v1/characters/015c91ba-bc7f-4622-a571-0b5e2488fefe"
+        "self": "/v1/characters/4e1a392e-012d-4bd3-8040-2821150d4bac"
+      },
+      "isFavorite": false
+    },
+    {
+      "id": "6f590753-c40b-42e5-90ca-3aa1c0180792",
+      "type": "character",
+      "attributes": {
+        "slug": "aamir-loonat",
+        "alias_names": [],
+        "animagus": null,
+        "blood_status": null,
+        "boggart": null,
+        "born": "31 August 1982 or earlier",
+        "died": null,
+        "eye_color": null,
+        "family_members": [],
+        "gender": "Male",
+        "hair_color": null,
+        "height": null,
+        "house": "Gryffindor",
+        "image": null,
+        "jobs": [],
+        "marital_status": null,
+        "name": "Aamir Loonat",
+        "nationality": "British or Irish",
+        "patronus": null,
+        "romances": [],
+        "skin_color": null,
+        "species": "Human",
+        "titles": [],
+        "wands": [],
+        "weight": null,
+        "wiki": "https://harrypotter.fandom.com/wiki/Aamir_Loonat"
+      },
+      "links": {
+        "self": "/v1/characters/6f590753-c40b-42e5-90ca-3aa1c0180792"
+      },
+      "isFavorite": false
+    },
+    {
+      "id": "80a6d28e-05b4-4e1f-b340-2f1e7ef1d010",
+      "type": "character",
+      "attributes": {
+        "slug": "albus-dumbledore",
+        "alias_names": [],
+        "animagus": null,
+        "blood_status": "Half-blood",
+        "boggart": "The corpse of his sister, Ariana",
+        "born": "Between 16 and 31 August 1881, Mould-on-the-Wold, England, Great Britain",
+        "died": "30 June 1997 (aged 115), Astronomy Tower, Hogwarts Castle, Highlands, Scotland, Great Britain",
+        "eye_color": "Blue",
+        "family_members": [
+          "Percival Dumbledore (father) †",
+          "Kendra Dumbledore (mother) †",
+          "Aberforth Dumbledore (younger brother)",
+          "Ariana Dumbledore (younger sister) †",
+          "Aurelius Dumbledore (biological nephew)",
+          "Honoria (aunt)",
+          "Dumbledore family"
+        ],
+        "gender": "Male",
+        "hair_color": "Auburn (originally), Silver",
+        "height": "5'11'",
+        "house": "Gryffindor",
+        "image": "https://static.wikia.nocookie.net/harrypotter/images/4/40/Albus_Dumbledore_%28HBP_promo%29_3.jpg",
+        "jobs": [
+          "Professor of Defence Against the Dark Arts at Hogwarts (1910s)",
+          "Head of Transfiguration department (?-pre 1955)",
+          "Columnist for Transfiguration Today (1926–?)",
+          "Headmaster of Hogwarts (pre 1971–1997)",
+          "Supreme Mugwump of the International Confederation of Wizards (?–1995)"
+        ],
+        "marital_status": "Single",
+        "name": "Albus Percival Wulfric Brian Dumbledore",
+        "nationality": "English",
+        "patronus": "Phoenix",
+        "romances": [
+          "Gellert Grindelwald (former lover) †"
+        ],
+        "skin_color": "Fair",
+        "species": "Human",
+        "titles": [
+          "Prefect",
+          "Head Boy",
+          "Professor",
+          "Head of Transfiguration (formerly)",
+          "Headmaster",
+          "Grand Sorcerer",
+          "Supreme Mugwump (formerly)",
+          "Chief Warlock"
+        ],
+        "wands": [
+          "Unknown length, wood and core (formerly)",
+          "15', Elder, Thestral tail hair core"
+        ],
+        "weight": "175 lbs (formerly; 1932), 168 lbs (1997)",
+        "wiki": "https://harrypotter.fandom.com/wiki/Albus_Dumbledore"
+      },
+      "links": {
+        "self": "/v1/characters/80a6d28e-05b4-4e1f-b340-2f1e7ef1d010"
+      },
+      "isFavorite": false
+    },
+    {
+      "id": "ba22f019-15ad-480c-a5ea-010382cadf55",
+      "type": "character",
+      "attributes": {
+        "slug": "1996-gryffindor-quidditch-keeper-trials-spectators",
+        "alias_names": [],
+        "animagus": null,
+        "blood_status": null,
+        "boggart": null,
+        "born": null,
+        "died": null,
+        "eye_color": null,
+        "family_members": [],
+        "gender": null,
+        "hair_color": null,
+        "height": null,
+        "house": null,
+        "image": null,
+        "jobs": [],
+        "marital_status": null,
+        "name": "1996 Gryffindor Quidditch Keeper trials spectators",
+        "nationality": null,
+        "patronus": null,
+        "romances": [],
+        "skin_color": null,
+        "species": null,
+        "titles": [],
+        "wands": [],
+        "weight": null,
+        "wiki": "https://harrypotter.fandom.com/wiki/1996_Gryffindor_Quidditch_Keeper_trials_spectators"
+      },
+      "links": {
+        "self": "/v1/characters/ba22f019-15ad-480c-a5ea-010382cadf55"
+      },
+      "isFavorite": false
+    },
+    {
+      "id": "20448207-20d2-48cb-85b4-d61ee8f50f97",
+      "type": "character",
+      "attributes": {
+        "slug": "1992-gryffindor-vs-slytherin-quidditch-match-spectators",
+        "alias_names": [],
+        "animagus": null,
+        "blood_status": null,
+        "boggart": null,
+        "born": null,
+        "died": null,
+        "eye_color": null,
+        "family_members": [],
+        "gender": null,
+        "hair_color": null,
+        "height": null,
+        "house": null,
+        "image": null,
+        "jobs": [],
+        "marital_status": null,
+        "name": "1992 Gryffindor vs Slytherin Quidditch match spectators",
+        "nationality": null,
+        "patronus": null,
+        "romances": [],
+        "skin_color": null,
+        "species": null,
+        "titles": [],
+        "wands": [],
+        "weight": null,
+        "wiki": "https://harrypotter.fandom.com/wiki/1992_Gryffindor_vs_Slytherin_Quidditch_match_spectators"
+      },
+      "links": {
+        "self": "/v1/characters/20448207-20d2-48cb-85b4-d61ee8f50f97"
+      },
+      "isFavorite": false
+    },
+    {
+      "id": "c83db691-225f-45fd-81e6-087d70d9c665",
+      "type": "character",
+      "attributes": {
+        "slug": "andrew-snowy-owl-gryffindor",
+        "alias_names": [],
+        "animagus": null,
+        "blood_status": null,
+        "boggart": null,
+        "born": "c. 1970s - 1980s",
+        "died": null,
+        "eye_color": null,
+        "family_members": [
+          "Andrew Snowy Owl (possibly)"
+        ],
+        "gender": "Male",
+        "hair_color": null,
+        "height": null,
+        "house": "Gryffindor",
+        "image": null,
+        "jobs": [],
+        "marital_status": null,
+        "name": "Andrew Snowy Owl",
+        "nationality": "British or Irish",
+        "patronus": null,
+        "romances": [],
+        "skin_color": null,
+        "species": "Human",
+        "titles": [],
+        "wands": [],
+        "weight": null,
+        "wiki": "https://harrypotter.fandom.com/wiki/Andrew_Snowy_Owl_(Gryffindor)"
+      },
+      "links": {
+        "self": "/v1/characters/c83db691-225f-45fd-81e6-087d70d9c665"
       },
       "isFavorite": false
     },
@@ -81,48 +289,10 @@
       "isFavorite": false
     },
     {
-      "id": "c83db691-225f-45fd-81e6-087d70d9c665",
+      "id": "36675288-c443-40bc-83e6-39bf12195a5c",
       "type": "character",
       "attributes": {
-        "slug": "andrew-snowy-owl-gryffindor",
-        "alias_names": [],
-        "animagus": null,
-        "blood_status": null,
-        "boggart": null,
-        "born": "c. 1970s - 1980s",
-        "died": null,
-        "eye_color": null,
-        "family_members": [
-          "Andrew Snowy Owl (possibly)"
-        ],
-        "gender": "Male",
-        "hair_color": null,
-        "height": null,
-        "house": "Gryffindor",
-        "image": null,
-        "jobs": [],
-        "marital_status": null,
-        "name": "Andrew Snowy Owl",
-        "nationality": "British or Irish",
-        "patronus": null,
-        "romances": [],
-        "skin_color": null,
-        "species": "Human",
-        "titles": [],
-        "wands": [],
-        "weight": null,
-        "wiki": "https://harrypotter.fandom.com/wiki/Andrew_Snowy_Owl_(Gryffindor)"
-      },
-      "links": {
-        "self": "/v1/characters/c83db691-225f-45fd-81e6-087d70d9c665"
-      },
-      "isFavorite": false
-    },
-    {
-      "id": "d951cacf-85fd-4861-a2f8-edd6ce824eaf",
-      "type": "character",
-      "attributes": {
-        "slug": "andrew-saxby",
+        "slug": "alison-denshaw",
         "alias_names": [],
         "animagus": null,
         "blood_status": null,
@@ -131,14 +301,14 @@
         "died": null,
         "eye_color": "Green",
         "family_members": [],
-        "gender": "Male",
-        "hair_color": "Blond",
+        "gender": "Female",
+        "hair_color": "Black",
         "height": null,
         "house": "Gryffindor",
-        "image": "https://static.wikia.nocookie.net/harrypotter/images/7/76/Andrew_Saxby.png",
+        "image": "https://static.wikia.nocookie.net/harrypotter/images/1/17/Alison_Denshaw.png",
         "jobs": [],
         "marital_status": null,
-        "name": "Andrew Saxby",
+        "name": "Alison Denshaw",
         "nationality": "British or Irish",
         "patronus": null,
         "romances": [],
@@ -147,10 +317,177 @@
         "titles": [],
         "wands": [],
         "weight": null,
-        "wiki": "https://harrypotter.fandom.com/wiki/Andrew_Saxby"
+        "wiki": "https://harrypotter.fandom.com/wiki/Alison_Denshaw"
       },
       "links": {
-        "self": "/v1/characters/d951cacf-85fd-4861-a2f8-edd6ce824eaf"
+        "self": "/v1/characters/36675288-c443-40bc-83e6-39bf12195a5c"
+      },
+      "isFavorite": false
+    },
+    {
+      "id": "c4ed6698-c43a-45ef-ab99-0f9cc34ce0cd",
+      "type": "character",
+      "attributes": {
+        "slug": "arthur-weasley",
+        "alias_names": [
+          "Arnold Weasley (by Rita Skeeter in the Daily Prophet)"
+        ],
+        "animagus": null,
+        "blood_status": "Pure-blood",
+        "boggart": "Lord Voldemort",
+        "born": "6 February 1950, England, Great Britain",
+        "died": null,
+        "eye_color": "Green",
+        "family_members": [
+          "Septimus Weasley (father)",
+          "Cedrella Weasley (née Black) (mother) †",
+          "Two brothers",
+          "Bilius (brother or brother-in-law) †",
+          "Brother or brother-in-law",
+          "Molly Weasley (née Prewett) (wife)",
+          "William Weasley (son)",
+          "Charles Weasley (son)",
+          "Percy Weasley (son)",
+          "Fred Weasley I (son) †",
+          "George Weasley (son)",
+          "Ronald Weasley (son)",
+          "Ginevra Potter (née Weasley) (daughter)",
+          "Victoire Weasley (granddaughter)",
+          "Dominique Weasley (granddaughter)",
+          "Louis Weasley (grandson)",
+          "Molly Weasley (granddaughter)",
+          "Lucy Weasley (granddaughter)",
+          "Fred Weasley II (grandson)",
+          "Roxanne Weasley (granddaughter)",
+          "Rose Granger-Weasley (granddaughter)",
+          "Hugo Granger-Weasley (grandson)",
+          "James Potter II (grandson)",
+          "Albus Potter (grandson)",
+          "Lily Potter (granddaughter)",
+          "Callidora Longbottom (née Black) (maternal aunt)",
+          "Harfang Longbottom (maternal uncle by marriage)",
+          "Charis Crouch (née Black) (maternal aunt) †",
+          "Caspar Crouch (maternal uncle by marriage) †",
+          "Tessie (aunt or aunt-in-law)",
+          "Male cousin",
+          "Female cousin",
+          "Male cousin",
+          "Two female cousins",
+          "Mr Prewett (father-in-law)",
+          "Gideon Prewett (brother-in-law) †",
+          "Fabian Prewett (brother-in-law) †",
+          "Muriel (aunt-in-law)",
+          "Fleur Weasley (née Delacour) (daughter-in-law)",
+          "Audrey Weasley (daughter-in-law)",
+          "Angelina Weasley (née Johnson) (daughter-in-law)",
+          "Hermione Granger (daughter-in-law)",
+          "Harry Potter (son-in-law)",
+          "Nephew",
+          "Arcturus Black II (maternal grandfather) †",
+          "Lysandra Black (née Yaxley) (maternal grandmother)",
+          "Weasley family",
+          "House of Black"
+        ],
+        "gender": "Male",
+        "hair_color": "Red",
+        "height": "5'11'",
+        "house": "Gryffindor",
+        "image": "https://static.wikia.nocookie.net/harrypotter/images/0/02/Arthur_Weasley_profile.jpg",
+        "jobs": [
+          "Head of the Misuse of Muggle Artefacts Office (formerly)",
+          "Head of the Office for the Detection and Confiscation of Counterfeit Defensive Spells and Protective Objects (formerly)",
+          "Head of the unknown Department"
+        ],
+        "marital_status": "Married",
+        "name": "Arthur Weasley",
+        "nationality": "English",
+        "patronus": "Weasel",
+        "romances": [
+          "Molly Weasley (wife)"
+        ],
+        "skin_color": "Fair",
+        "species": "Human",
+        "titles": [],
+        "wands": [
+          "Unknown length, wood and core"
+        ],
+        "weight": "154 lbs",
+        "wiki": "https://harrypotter.fandom.com/wiki/Arthur_Weasley"
+      },
+      "links": {
+        "self": "/v1/characters/c4ed6698-c43a-45ef-ab99-0f9cc34ce0cd"
+      },
+      "isFavorite": false
+    },
+    {
+      "id": "718b0402-89a1-4d8d-9ba1-ac99d5a3a4e8",
+      "type": "character",
+      "attributes": {
+        "slug": "abigail-nicola",
+        "alias_names": [],
+        "animagus": null,
+        "blood_status": null,
+        "boggart": null,
+        "born": null,
+        "died": null,
+        "eye_color": null,
+        "family_members": [],
+        "gender": "Female",
+        "hair_color": null,
+        "height": null,
+        "house": "Gryffindor",
+        "image": null,
+        "jobs": [],
+        "marital_status": null,
+        "name": "Abigail Nicola",
+        "nationality": "British or Irish",
+        "patronus": null,
+        "romances": [],
+        "skin_color": null,
+        "species": "Human",
+        "titles": [],
+        "wands": [],
+        "weight": null,
+        "wiki": "https://harrypotter.fandom.com/wiki/Abigail_Nicola"
+      },
+      "links": {
+        "self": "/v1/characters/718b0402-89a1-4d8d-9ba1-ac99d5a3a4e8"
+      },
+      "isFavorite": false
+    },
+    {
+      "id": "16e1d7ff-d2c2-483b-ab00-c1aa215c1237",
+      "type": "character",
+      "attributes": {
+        "slug": "alannis-shepley",
+        "alias_names": [],
+        "animagus": null,
+        "blood_status": null,
+        "boggart": null,
+        "born": "31 August 1982 or earlier",
+        "died": null,
+        "eye_color": null,
+        "family_members": [],
+        "gender": "Female",
+        "hair_color": null,
+        "height": null,
+        "house": "Ravenclaw",
+        "image": null,
+        "jobs": [],
+        "marital_status": null,
+        "name": "Alannis Shepley",
+        "nationality": "British or Irish",
+        "patronus": null,
+        "romances": [],
+        "skin_color": null,
+        "species": "Human",
+        "titles": [],
+        "wands": [],
+        "weight": null,
+        "wiki": "https://harrypotter.fandom.com/wiki/Alannis_Shepley"
+      },
+      "links": {
+        "self": "/v1/characters/16e1d7ff-d2c2-483b-ab00-c1aa215c1237"
       },
       "isFavorite": false
     }

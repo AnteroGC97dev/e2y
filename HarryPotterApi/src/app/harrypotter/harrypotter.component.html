@@ -47,7 +47,7 @@
       </mat-card-header>
       <img
         mat-card-image
-        [src]="item.attributes.image"
+        [src]="item.attributes.image?.length ? item.attributes.image : 'https://i.pinimg.com/736x/ad/c9/58/adc95859af57b53d5c9b0e055ea147d8.jpg'"
         [alt]="item.attributes.name"
       />
       <mat-card-content>
